@@ -7,4 +7,4 @@
   * 阅读界面字体大小、颜色修改、背景颜色修改
   * 阅读历史自动保存
 * 界面预览图
-![预览图](http://www.lagou.com/i/image/M00/3B/74/CgqKkVdru4SAfa5OAD4CY3nb_C0420.png)  
+![预览](http://www.lagou.com/i/image/M00/3B/74/CgqKkVdru4SAfa5OAD4CY3nb_C0420.png)  
