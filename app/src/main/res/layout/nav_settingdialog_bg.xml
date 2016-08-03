@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/fileIco_unkonw"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:visibility="gone"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/liht1" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:indeterminate="false" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/liht1" />
+
+        <CheckBox
+            android:id="@+id/brightCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/setlight"
+            android:textColor="@color/default_shadow_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="@string/bgcolor" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox1"
+                    style="@style/checkbox8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox2"
+                    style="@style/checkbox7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox3"
+                    style="@style/checkbox6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox4"
+                    style="@style/checkbox5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox5"
+                    style="@style/checkbox4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox6"
+                    style="@style/checkbox3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox7"
+                    style="@style/checkbox2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox8"
+                    style="@style/checkbox1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"></CheckBox>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="@string/bgimage" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp">
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox9"
+                    style="@style/checkboximage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/read_bg1"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox10"
+                    style="@style/checkboximage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/read_bg2"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox11"
+                    style="@style/checkboximage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/read_bg3"
+                    android:checked="false"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/bgCheckBox12"
+                    style="@style/checkboximage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/read_bg4"
+                    android:checked="false"></CheckBox>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

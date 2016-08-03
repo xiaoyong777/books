@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_online_leaderboard">
+        <item>总榜</item>
+        <item>推荐榜</item>
+        <item>收藏榜</item>
+        <item>新书榜</item>
+    </string-array>
+    <string-array name="string_array_online_sort">
+        <item>玄幻奇幻</item>
+        <item>武侠修仙</item>
+        <item>都市言情</item>
+        <item>历史军事</item>
+        <item>科幻灵异</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">去看看</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="appname">阅享</string>
+    <string name="title_activity_read">ReadActivity</string>
+    <string name="title_activity_book_info">BookInfoActivity</string>
+    <string name="title_activity_book_list">BookListActivity</string>
+    <string name="nav_recentlyRead">最近阅读</string>
+    <string name="nav_bookshelf">我的书架</string>
+    <string name="nav_local">本地文件</string>
+    <string name="nav_online">网上书库</string>
+    <string name="nav_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="add_bookshelf">加入书架</string>
+    <string name="alert">提示</string>
+    <string name="alert_ok">加入成功</string>
+    <string name="alert_failure">加入失败</string>
+    <string name="alert_repeat">已经在书架里了,不用重复添加</string>
+    <string name="book_itme_continuereading_buton">继续阅读</string>
+    <string name="book_itme_continuereading1_buton">查看信息</string>
+    <string name="book_itme_remove_button">移除此书</string>>
+    <string name="book_itme_details_buton">查看信息</string>
+    <string name="book_itme_author">作者</string>
+    <string name="book_itme_updatatime">最新章节</string>
+    <string name="online_leaderboard">榜单</string>
+    <string name="online_sort">分类</string>
+    <string name="return_parent_folder">返回上级目录</string>
+    <string name="root_folder">根目录</string>
+    <string name="folder_uncanread">没有权限呢,看不了这个目录！</string>
+    <string name="localFragment">这是只是摆设！并不能阅读本地小说！ 😂😂😂</string>
+    <string name="search">要搜的书籍名</string>
+
+    <string name="upate">更新至：</string>
+    <string name="top_allvisit">总榜</string>
+    <string name="top_allvote">推荐榜</string>
+    <string name="top_goodnum">收藏榜</string>
+    <string name="top_postdate">新书榜</string>
+    <string name="sort1">玄幻奇幻</string>
+    <string name="sort2">都市言情</string>
+    <string name="sort3">武侠修仙</string>
+    <string name="sort4">历史军事</string>
+    <string name="sort6">科幻灵异</string>
+
+    <string name="ahead_read">预读失败！！！</string>
+    <string name="not_lastchapter">没有上一章了</string>
+    <string name="not_nextchapter">没有下一章了</string>
+    <string name="error">出错啦！！</string>
+    <string name="no_internet">没有开网络吧!快点去开网络~</string>
+    <string name="generic_server_down">服务器连接不上呢,去看看网络怎么了！</string>
+    <string name="generic_error">连接失败,重新试试</string>
+    <string name="notsearch">哎呀！搜不到你要的书呢\n要不换一个试试</string>
+    <string name="notrecently">没有阅读历史呢\n去书城逛逛吧</string>
+    <string name="notbookshelf">书架空空如也\n去书城逛逛吧</string>
+    <string name="not_chapter">等一下下啦！还没获取到章节信息呢</string>
+    <string name="ok1">那我去看看</string>
+    <string name="ok2">那我再试试</string>
+    <string name="ok3">知道啦</string>
+    <string name="not_desc">哎呀！这作者好懒,竟然简介都没写！！</string>
+
+    <string name="currentChapter">当前章节</string>
+    <string name="desc">内容简介</string>
+    <string name="bookChaper">章节目录</string>
+    <string name="read_setting">阅读设置</string>
+
+    <string name="setlight">更随系统</string>
+    <string name="textsize">文字大小</string>
+    <string name="textcolor">文字颜色</string>
+    <string name="bgcolor">背景颜色</string>
+    <string name="bgimage">背景图片</string>
+    <string name="readpreview">\t\t这里是预览区域\n在这里你可以看到设置后的效果</string>
+    <string name="sizemin">亲！！！\n真的要设这么小吗？？</string>
+    <string name="sizemax">亲！这么大真的好吗？</string>
+
+    <string name="dowm">章节下载</string>
+    <string name="dowm50">下载后50章节</string>
+    <string name="dowm100">下载后100章节</string>
+    <string name="dowmunread">下载全部未读章节</string>
+    <string name="dowmall">下载整本书籍</string>
+    <string name="AlertDialog">真的要移除吗？？</string>
+    <string name="alertPositive">真的</string>
+    <string name="alertNegative">假的</string>
+    <string name="deleOk">移除成功</string>
+    <string name="delenot">移除失败</string>
+
+    <string name="NotificationContentTitle">章节下载</string>
+    <string name="dowmstart">下载中</string>
+    <string name="dowmend">下载完成</string>
+
+    <string name="explanation">\u3000\u3000说明：应用内的所有数据全部来源于【去看看】小说网，
+        数据所有权归【去看看】所有，如发现侵权请与去看看小说网站管理员联系。\n\u3000\u3000来源网站：http://www.7kankan.com/</string>
+    <string name="sourceUrl">http://www.7kankan.com/</string>
+    <string name="Email">开发者邮箱：mz7364@gmail.com</string>
+</resources>

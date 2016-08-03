@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.ReadActivity">
+    <item
+        android:id="@+id/readActivity_settings"
+        android:orderInCategory="100"
+        android:title="@string/add_bookshelf"
+        app:showAsAction="never" />
+</menu>
